@@ -30,6 +30,7 @@ namespace Test_ios
             {
                 currentiOSDevice = args.Device;
                 Console.WriteLine("Device is connected");
+                //MobileDevice.AMDeviceLookupApplications();
             }
             if (args.Message == MobileDevice.Enumerates.ConnectNotificationMessage.Disconnected)
             {
